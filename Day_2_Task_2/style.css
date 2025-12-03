@@ -1,0 +1,115 @@
+/* ---------- GENERAL ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ---------- LOGIN PAGE ---------- */
+.login-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+}
+
+.login-container {
+    background: #fff;
+    padding: 40px;
+    width: 330px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #999;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #4b79a1;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background: #35516a;
+}
+
+/* ---------- HOME PAGE ---------- */
+.home-body {
+    background: #f1f4f9;
+    min-height: 100vh;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 40px;
+    background: #4b79a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.home-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 20px;
+    color: #555;
+}

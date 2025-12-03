@@ -1,1 +1,19 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=21926747&assignment_repo_type=AssignmentRepo)
+# Project1 — Homepage
+
+This repository contains a simple, responsive homepage template for Project1.
+
+Quick start
+
+- Open `index.html` in your browser (double-click) or use an extension like Live Server in VS Code.
+
+Files added
+
+- `index.html` — the homepage
+- `styles.css` — page styles
+- `script.js` — tiny JS for mobile navigation
+
+Try it locally
+
+If you have Python installed you can run:  
+python -m http.server 8000  
+Then open http://localhost:8000 in your browser.
